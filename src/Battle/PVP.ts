@@ -5,19 +5,19 @@ import Battle from './Battle';
 
 export default class PVP extends Battle {
   constructor(
-    private player1: Character | Fighter, 
-    private player2: Character | Fighter,
+    private _player1: Character | Fighter, 
+    private _player2: Character | Fighter,
   ) {
-    super(player1);
+    super(_player1);
     super.fight();
   }
 
   fight(): number {
-    while (this.player1.lifePoints > -1 && this.player2.lifePoints > -1) {
+    while (this._player1.lifePoints > -1 && this._player2.lifePoints > -1) {
       this.validateFirstAttack();
     }
-    console.log(this.player1.lifePoints, this.player2.lifePoints);
-    if (this.player1.lifePoints > this.player2.lifePoints) {
+    console.log(this._player1.lifePoints, this._player2.lifePoints);
+    if (this._player1.lifePoints > this._player2.lifePoints) {
       console.log('Player 1 wins!');
       return 1;
     } 
@@ -29,11 +29,11 @@ export default class PVP extends Battle {
     const firstAttackDicePlayer1 = getRandomInt(1, 20);
     const firstAttackDicePlayer2 = getRandomInt(1, 20);
     if (firstAttackDicePlayer1 > firstAttackDicePlayer2) {
-      this.player1.attack(this.player2);
-      this.player2.attack(this.player1);
+      this._player1.attack(this._player2);
+      this._player2.attack(this._player1);
     } else {
-      this.player2.attack(this.player1);
-      this.player1.attack(this.player2);
+      this._player2.attack(this._player1);
+      this._player1.attack(this._player2);
     }
   }
 }
