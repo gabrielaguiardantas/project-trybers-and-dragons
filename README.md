@@ -11,3 +11,4 @@ Vig√©simo quarto projeto do curso de desenvolvimento Web da Trybe e oitavo do m√
 
 ## Features implementadas: ##
 
+![features-project24](https://github.com/gabrielaguiardantas/project-trybers-and-dragons/assets/110852595/d285b42b-5d39-4738-9304-1c2a1cf0d4ee)
