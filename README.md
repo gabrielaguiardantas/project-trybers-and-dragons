@@ -1,10 +1,13 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+# Projeto Trybers and Dragons #
+
+Vigésimo quarto projeto do curso de desenvolvimento Web da Trybe e oitavo do módulo de Backend. A aplicação aqui desenvolvida tem como objetivo criar uma simulação de um jogo de RPG utilizando métodos e ferramentas do Typescript. Principais conhecimentos desenvolvidos e aperfeiçoados neste projeto:
+
+- Typescript (Heranças, classes, composição, abstração, métodos estáticos/abstratos, type union, sobrescrita e encapsulamento)
+- Docker
+- Docker-compose
+- Ts-node
+- POO
+- SOLID
+
+## Features implementadas: ##
+
